@@ -4,10 +4,9 @@
 
 ## 文件命名规范
 
-- `ruizi-shell-windows-x64.exe` - Windows 64位安装包
-- `ruizi-shell-macos-arm64.dmg` - macOS Apple Silicon 安装包
-- `ruizi-shell-macos-x64.dmg` - macOS Intel 安装包
-- `ruizi-shell-linux-x64.AppImage` - Linux 64位 AppImage
+- `ruizi-shell-windows-amd64.zip` - Windows 64位安装包
+- `ruizi-shell-macos.zip` - macOS 安装包
+- `ruizi-shell-linux-amd64.tar.gz` - Linux 64位安装包
 
 ## 注意事项
 
