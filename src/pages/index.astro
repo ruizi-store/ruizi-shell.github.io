@@ -31,19 +31,7 @@
           <p class="free-badge">🎉 完全免费，无任何功能限制</p>
         </div>
         <div class="hero-image">
-          <div class="terminal-preview">
-            <div class="terminal-header">
-              <span class="dot red"></span>
-              <span class="dot yellow"></span>
-              <span class="dot green"></span>
-              <span class="terminal-title">ruizi-shell</span>
-            </div>
-            <div class="terminal-body">
-              <p><span class="prompt">user@server</span>:<span class="path">~</span>$ ssh root@192.168.1.100</p>
-              <p><span class="success">Connected to server</span></p>
-              <p><span class="prompt">root@server</span>:<span class="path">~</span>$ _</p>
-            </div>
-          </div>
+          <img src="/screenshot.png" alt="Ruizi Shell 界面截图" class="product-screenshot" />
         </div>
       </div>
     </section>
@@ -220,7 +208,7 @@
 
   .hero .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     gap: 60px;
     align-items: center;
   }
@@ -304,49 +292,19 @@
     font-weight: 500;
   }
 
-  /* Terminal Preview */
-  .terminal-preview {
-    background: #1a1a2e;
+  /* Product Screenshot */
+  .product-screenshot {
+    width: 100%;
     border-radius: 12px;
-    overflow: hidden;
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
     border: 1px solid var(--border);
   }
 
-  .terminal-header {
-    background: #2d2d44;
-    padding: 12px 16px;
+  .hero-image {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 8px;
   }
-
-  .dot {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-  }
-
-  .dot.red { background: #ff5f56; }
-  .dot.yellow { background: #ffbd2e; }
-  .dot.green { background: #27ca40; }
-
-  .terminal-title {
-    margin-left: auto;
-    color: var(--text-muted);
-    font-size: 13px;
-  }
-
-  .terminal-body {
-    padding: 20px;
-    font-family: 'JetBrains Mono', 'Fira Code', monospace;
-    font-size: 14px;
-    line-height: 1.8;
-  }
-
-  .prompt { color: #22c55e; }
-  .path { color: #3b82f6; }
-  .success { color: #22c55e; }
 
   /* Features Section */
   .features {
